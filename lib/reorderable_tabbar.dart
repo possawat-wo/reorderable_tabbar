@@ -1064,7 +1064,7 @@ class _ReorderableTabBarState extends State<ReorderableTabBar> {
             },
           ),
         ),
-        if (_tabStripWidth != null) getIndicatorPainter(),
+        // if (_tabStripWidth != null) getIndicatorPainter(),
       ],
     );
     if (widget.padding != null) {
